@@ -1,0 +1,25 @@
+{
+  "name": "projetotabuadappi",
+  "version": "1.0.0",
+  "description": "Projeto tabuada PPI",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dayanetiziani/ProjetoTabuadaPPI.git"
+  },
+  "author": "Dayane Tiziani Boa Ventura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dayanetiziani/ProjetoTabuadaPPI/issues"
+  },
+  "homepage": "https://github.com/dayanetiziani/ProjetoTabuadaPPI#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
