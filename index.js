@@ -2,7 +2,7 @@
 const express = require('express')
 const app = express();
 
-//const host = '0.0.0.0'; //ip genérico que representa todas as interfaces de rede (placas de rede) locais do
+const host = '0.0.0.0'; //ip genérico que representa todas as interfaces de rede (placas de rede) locais do
 const porta = 3000; //porta identifica uma aplicação, dentro unúmeras, que podem estar sendo executadas no 
 
 
@@ -11,7 +11,7 @@ app.get('/',paginaInicial);
 app.get('/tabuada', processarTabuada);
 
 // () => {} // é uma função anônima (arrow function ou função de seta)
-app.listen(porta, () => {
+app.listen(porta, host, () => {
     //main - escrever o código aqui dentro
     //string literals permite concatenar variaveis com strings de uma maneira
     //string literals = ``
