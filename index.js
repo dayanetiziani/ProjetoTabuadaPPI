@@ -40,6 +40,8 @@ function processarTabuada(requisicao, resposta){
     } 
     conteudoResposta+= `
                 </ul>
+                <hr>
+                <p>© Todos os direitos reservados. DAYANE TIZIANI BOA VENTURA 2023</p>
             </body>
         </html>
     `;
@@ -58,7 +60,9 @@ function processarTabuada(requisicao, resposta){
                     <h1>Erro ao processar Tabuada</h1>
                     <hr>
                     <h2>Não foi possivel processar a sua requisição,
-                    <h3>${erro.message} 
+                    <h3>${erro.message}
+                    <hr>
+                    <p>© Todos os direitos reservados. DAYANE TIZIANI BOA VENTURA 2023</p> 
                 </body>  
             </html>       
         `);
@@ -99,6 +103,8 @@ function paginaInicial(requisicao, resposta){
             <li> HTTP;</li>
             <li> HTML;</li>
         </ul>
+        <hr>
+        <p>© Todos os direitos reservados. DAYANE TIZIANI BOA VENTURA 2023</p>
     </body>
     </html>
     `);
