@@ -1,5 +1,5 @@
-import express from 'express';
-
+//import express from 'express';
+const express = require('express')
 const app = express();
 
 //const host = '0.0.0.0'; //ip genérico que representa todas as interfaces de rede (placas de rede) locais do
