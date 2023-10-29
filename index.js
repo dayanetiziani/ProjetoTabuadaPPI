@@ -103,6 +103,8 @@ function paginaInicial(requisicao, resposta){
             <li> HTTP;</li>
             <li> HTML;</li>
         </ul>
+        
+        <h2>Informe o número por meio da url e veja a tabuada do número desejado, exemplo: https://${requisicao.headers.host}/tabuada?numero=2</h2>
         <hr>
         <p>© Todos os direitos reservados. DAYANE TIZIANI BOA VENTURA 2023</p>
     </body>
